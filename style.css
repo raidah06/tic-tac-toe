@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    
+    justify-content:center;
+    align-items: center;
+}
+
+#gameboard{
+    display:grid;
+    grid-template:repeat(3,60px)/repeat(3,60px);
+    gap:25px;
+}
+.square{
+    padding:10px;
+    background-color: rgb(147, 160, 160);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+}
